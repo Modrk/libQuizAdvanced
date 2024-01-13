@@ -1,102 +1,102 @@
 const quizData = [
     {
         id: 0,
-        src: "https://i.postimg.cc/MGqzJGvK/01.jpg",
+        src: "https://i.postimg.cc/dtzy9ynf/01.jpg",
         correct: 1
     },
     {
         id: 1,
-        src: "https://i.postimg.cc/V6N15Hqx/02.jpg",
+        src: "https://i.postimg.cc/hPJmxr8x/02.jpg",
         correct: 1
     },
     {
         id: 2,
-        src: "https://i.postimg.cc/wB2gqdm5/03.jpg",
+        src: "https://i.postimg.cc/mkKtVv39/03.jpg",
         correct: 1
     },
     {
         id: 3,
-        src: "https://i.postimg.cc/cCgSBg5T/04.jpg",
+        src: "https://i.postimg.cc/qvyCDv5v/04.jpg",
         correct: 1
     },
     {
         id: 4,
-        src: "https://i.postimg.cc/1ztMpq92/05.jpg",
+        src: "https://i.postimg.cc/qRMh7XMN/05.jpg",
         correct: 1
     },
     {
         id: 5,
-        src: "https://i.postimg.cc/dVMqn6FC/06.jpg",
+        src: "https://i.postimg.cc/KzJT7ps7/06.jpg",
         correct: 1
     },
     {
         id: 6,
-        src: "https://i.postimg.cc/J0fW6rf8/07.jpg",
+        src: "https://i.postimg.cc/cH9KtgrX/07.jpg",
         correct: 1
     },
     {
         id: 7,
-        src: "https://i.postimg.cc/g0zbBBTx/08.jpg",
+        src: "https://i.postimg.cc/9XkRW93f/08.jpg",
         correct: 1
     },
     {
         id: 8,
-        src: "https://i.postimg.cc/kgdmW5NF/09.jpg",
+        src: "https://i.postimg.cc/J0ssNrXm/09.jpg",
         correct: 1
     },
     {
         id: 9,
-        src: "https://i.postimg.cc/vBDFGxMM/10.jpg",
+        src: "https://i.postimg.cc/Z58CFDW9/10.jpg",
         correct: 1
     },
     {
         id: 10,
-        src: "https://i.postimg.cc/Jngw074X/11.jpg",
+        src: "https://i.postimg.cc/PqKJ0pzT/11.jpg",
         correct: 1
     },
     {
         id: 11,
-        src: "https://i.postimg.cc/X75WZ55Y/12.jpg",
+        src: "https://i.postimg.cc/Cxgjg8Dq/12.jpg",
         correct: 0
     },
     {
         id: 12,
-        src: "https://i.postimg.cc/59T1Ng6r/13.jpg",
+        src: "https://i.postimg.cc/Vv0NS7yk/13.jpg",
         correct: 0
     },
     {
         id: 13,
-        src: "https://i.postimg.cc/52qMgMnc/14.jpg",
+        src: "https://i.postimg.cc/v8Cr0kZX/14.jpg",
         correct: 1
     },
     {
         id: 14,
-        src: "https://i.postimg.cc/N0dvh73p/15.jpg",
+        src: "https://i.postimg.cc/V6V6LxVh/15.jpg",
         correct: 0
     },
     {
         id: 15,
-        src: "https://i.postimg.cc/wMsCmK7G/16.jpg",
+        src: "https://i.postimg.cc/Kc17rxxR/16.jpg",
         correct: 0
     },
     {
         id: 16,
-        src: "https://i.postimg.cc/BZLbgXFd/17.jpg",
+        src: "https://i.postimg.cc/Yqg1ZR47/17.jpg",
         correct: 0
     },
     {
         id: 17,
-        src: "https://i.postimg.cc/Df9ZYndm/18.jpg",
+        src: "https://i.postimg.cc/RCJfJdLt/18.jpg",
         correct: 0
     },
     {
         id: 18,
-        src: "https://i.postimg.cc/qgV9cmKM/19.jpg",
+        src: "https://i.postimg.cc/G90mvkrJ/19.jpg",
         correct: 0
     },
     {
         id: 19,
-        src: "https://i.postimg.cc/MK1GCNd5/20.jpg",
+        src: "https://i.postimg.cc/jS4ydjQk/20.jpg",
         correct: 0
     }
 ];
