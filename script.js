@@ -21,7 +21,7 @@ const quizData = [
     },
     {
         id: 4,
-        src: "https://i.postimg.cc/bwQq5nYB/05.jpg",
+        src: "https://i.postimg.cc/1ztMpq92/05.jpg",
         correct: 1
     },
     {
