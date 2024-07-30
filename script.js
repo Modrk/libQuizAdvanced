@@ -18,7 +18,9 @@ const quizData = [
         id: 3,
         src: "https://i.postimg.cc/qvyCDv5v/04.jpg",
         correct: 1
-    },
+    }
+    /*
+    ,
     {
         id: 4,
         src: "https://i.postimg.cc/qRMh7XMN/05.jpg",
@@ -99,6 +101,7 @@ const quizData = [
         src: "https://i.postimg.cc/jS4ydjQk/20.jpg",
         correct: 0
     }
+    */
 ];
 
 const shuffleArray = array => {
@@ -128,7 +131,15 @@ img.style.maxHeight = "500px";
 imgElem.appendChild(img);
 let score = 0;
 const wrongAnswers = [];
+const cache = document.createElement("div");
+cache.classList.add("invisible");
 
+function preloadImage(url) {
+    let nimg = new Image();
+    nimg.src = url;
+    nimg.classList.add("invisible");
+    cache.appendChild(nimg);
+}
 
 
 function showResults() {
@@ -154,9 +165,12 @@ function nextImage() {
     if (answer) {
         quizData[currentImage].correct === ~~answer ? score++ : wrongAnswers.push(quizData[currentImage].id);
         if (currentImage < quizData.length-1) {
+            img.src = quizData[currentImage+1].src;
+
+            if (currentImage < quizData.length - 2) {
+                preloadImage(quizData[currentImage+2].src);
+            }
             currentImage++;
-            img.src = quizData[currentImage].src;
-            imgElem.replaceChildren(img);
         } else {
             showResults();
         }
