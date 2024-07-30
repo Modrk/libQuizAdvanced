@@ -141,6 +141,8 @@ function preloadImage(url) {
     cache.appendChild(nimg);
 }
 
+preloadImage(quizData[currentImage+1].src);
+
 
 function showResults() {
     quizForm.classList.add("d-none", "invisible");
